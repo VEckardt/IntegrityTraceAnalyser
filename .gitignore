@@ -5,3 +5,5 @@ build/classes/traceanalyser/resources/Move.png
 build/classes/traceanalyser/resources/TraceAnalyserRB.properties
 build/classes/traceanalyser/resources/warn.png
 build/classes/traceanalyser/TraceAnalyser.fxml
+nbproject/configs/Run_as_WebStart.properties
+nbproject/configs/Run_in_Browser.properties
