@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="742.0000999999975" prefWidth="1065.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="traceanalyser.TraceAnalyserController">
+  <children>
+    <MenuBar prefWidth="1065.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+      <menus>
+        <Menu mnemonicParsing="false" text="File">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#bClose" text="Exit" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Move">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#bMoveBackwards" text="Backwards" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Options">
+          <items>
+            <CheckMenuItem mnemonicParsing="false" selected="false" text="Open Within GUI" fx:id="mOpenWithinGUI" />
+            <CheckMenuItem mnemonicParsing="false" text="Insert Break when Type changes" fx:id="mInsertBreakWhenTypeChanges" />
+            <CheckMenuItem mnemonicParsing="false" text="Display Project" fx:id="mDisplayProject" />
+            <SeparatorMenuItem mnemonicParsing="false" />
+            <MenuItem mnemonicParsing="false" onAction="#mOptionsSave" text="Save" />
+          </items>
+        </Menu>
+        <Menu mnemonicParsing="false" text="Help">
+          <items>
+            <MenuItem mnemonicParsing="false" onAction="#bAbout" text="About" />
+          </items>
+        </Menu>
+      </menus>
+    </MenuBar>
+    <ScrollPane minHeight="400.0" minWidth="400.0" prefHeight="650.0000999999975" prefWidth="1037.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="62.0">
+      <content>
+        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0">
+          <children>
+            <GridPane fx:id="gridPane" alignment="TOP_LEFT" gridLinesVisible="true" hgap="10.0" prefHeight="-1.0" prefWidth="-1.0" vgap="20.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+              <padding>
+                <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+              </padding>
+            </GridPane>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Text id="infoText1" fx:id="mainInfo" disable="false" layoutX="16.0" layoutY="65.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Trace Details for Document 3445:" visible="false">
+      <font>
+        <Font name="System Bold" size="16.0" />
+      </font>
+    </Text>
+    <Label text="Relationships and Traces" AnchorPane.leftAnchor="16.0" AnchorPane.topAnchor="38.0">
+      <textFill>
+        <Color blue="0.500" green="0.500" red="0.500" fx:id="x1" />
+      </textFill>
+    </Label>
+    <Label text="Hints: Red colored traces are suspect. Click an item to open it in the client." AnchorPane.bottomAnchor="8.0" AnchorPane.rightAnchor="14.0">
+      <font>
+        <Font size="14.0" />
+      </font>
+    </Label>
+    <Pane fx:id="baseItemPane" layoutX="16.0" layoutY="48.0" prefHeight="91.0" prefWidth="322.0" />
+    <ProgressBar fx:id="progressBar" prefWidth="200.0" progress="0.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="14.0" />
+  </children>
+</AnchorPane>
