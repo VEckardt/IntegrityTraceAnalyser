@@ -20,4 +20,6 @@ Furthermore, it will check and count any suspect relationships.
 - click Custom > Trace Analyser
 - Then review the outcome
 
-
+## Known Limitations
+- Will not work with Versioned Documents
+- Is quite slow when large documents are involved (up to 1 minute to start up with ~ 5000 requirements)
