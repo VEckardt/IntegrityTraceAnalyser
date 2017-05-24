@@ -10,9 +10,10 @@ Furthermore, it will check and count any suspect relationships.
 
 ## Install
 - put the IntegrityTraceAnalyser.jar into your IntegrityClient folder
-- add a custom menu with the name: Trace Analyser
--   the program is program:  ../jre/bin/javaw.exe
--   add the parameters as follows:   
+- add a custom menu with 
+-   name: Trace Analyser
+-   program:  ../jre/bin/javaw.exe
+-   parameter:   
 -   -jre ../IntegrityTraceAnalyser.jar
 
 ## How to test
