@@ -8,6 +8,10 @@ Furthermore, it will check and count any suspect relationships.
 
 ![TraceAnalyser](doc/TraceAnalyser.PNG)
 
+## Use Cases
+- Trace status review in general
+- To validate the Data Migration when moving documents from one server to another with traces 
+
 ## Install
 - put the IntegrityTraceAnalyser.jar into your IntegrityClient folder
 - add a custom menu with 
@@ -24,3 +28,4 @@ Furthermore, it will check and count any suspect relationships.
 ## Known Limitations
 - Will not work with Versioned Documents
 - Is quite slow when large documents are involved (up to 1 minute to start up with ~ 5000 requirements)
+- The colors are internally defined, not configurable
