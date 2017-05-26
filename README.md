@@ -37,3 +37,4 @@ parameter: -jar ../IntegrityTraceAnalyser.jar
 - Will not work with Versioned Documents
 - Is quite slow when large documents are involved (up to 1 minute to start up with ~ 5000 requirements)
 - The colors are internally defined, not configurable
+- the progress bar does not work 
