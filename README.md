@@ -15,9 +15,11 @@ Furthermore, it will check and count any suspect relationships.
 ## Install
 - Put the dist/IntegrityTraceAnalyser.jar directly into your IntegrityClient folder
 - Add a custom menu entry with 
--   name: Trace Analyser
--   program:  ../jre/bin/javaw.exe
--   parameter: -jar ../IntegrityTraceAnalyser.jar
+```
+name: Trace Analyser
+program:  ../jre/bin/javaw.exe
+parameter: -jar ../IntegrityTraceAnalyser.jar
+```
 - Copy also the files /dis/lib/IntegrityAPI.jar and /dist/lib/jfxmessagebox-1.1.0.jar into your IntegrityClient/lib folder
 
 ## How to test
