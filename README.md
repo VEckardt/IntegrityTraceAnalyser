@@ -13,14 +13,14 @@ Furthermore, it will check and count any suspect relationships.
 - To validate the Data Migration when moving documents from one server to another with traces 
 
 ## Install
-- Put the dist/IntegrityTraceAnalyser.jar directly into your IntegrityClient folder
+- Put the "dist/IntegrityTraceAnalyser.jar" directly into your IntegrityClient folder
 - Add a custom menu entry with 
 ```
 name: Trace Analyser
 program:  ../jre/bin/javaw.exe
 parameter: -jar ../IntegrityTraceAnalyser.jar
 ```
-- Copy also the files /dis/lib/IntegrityAPI.jar and /dist/lib/jfxmessagebox-1.1.0.jar into your IntegrityClient/lib folder
+- Copy also the files "dits/lib/IntegrityAPI.jar" and "dist/lib/jfxmessagebox-1.1.0.jar" into your IntegrityClient/lib folder
 
 ## How to test
 - open any document or just stay on one in the query result
