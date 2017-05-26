@@ -27,6 +27,11 @@ parameter: -jar ../IntegrityTraceAnalyser.jar
 - click Custom > Trace Analyser
 - Then review the outcome
 
+##  Development environment
+- PTC Integrity LM 10.9 (also 11.0 should be fine)
+- Netbeans 7.4 (or 8)
+- Java 1.7 (or 1.8)
+
 ## Known Limitations
 - Will not work with Versioned Documents
 - Is quite slow when large documents are involved (up to 1 minute to start up with ~ 5000 requirements)
