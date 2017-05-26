@@ -2,7 +2,7 @@
 Analyse the traces between your documents 
 
 ## Purpose
-The TraceAnalyser can be started on one document of your choice and it analyses whcih traces you have defined from this document  to other documents. 
+The TraceAnalyser can be started on one document of your choice and it analyses which traces you have defined from this document  to other documents. 
 It will check and list upstream and downstrem traces.
 Furthermore, it will check and count any suspect relationships. 
 
