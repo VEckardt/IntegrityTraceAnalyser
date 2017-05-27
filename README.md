@@ -13,8 +13,8 @@ When the result is displayed, you can click at one of the document images to ope
 
 ## Install
 - Put the "dist/IntegrityTraceAnalyser.jar" directly into your IntegrityClient folder
-- Add a custom menu entry with 
 - Copy also the files "dist/lib/IntegrityAPI.jar" and "dist/lib/jfxmessagebox-1.1.0.jar" into your IntegrityClient/lib folder
+- Add a custom menu entry with:
 ```
 name: Trace Analyser
 program:  ../jre/bin/javaw.exe
