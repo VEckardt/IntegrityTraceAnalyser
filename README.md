@@ -3,7 +3,8 @@ Analyse the traces between your documents
 
 ## Purpose
 The TraceAnalyser can be started on a document of your choice. It analyzes which traces you have defined from this document to other documents. It lists upstream as well as existing downstream traces. In addition, it counts all suspect relationships by document.
-When the result is displayed, you can click at one of the document images to open a list of traced nodes for detailed review. 
+
+You can click at one of the document images to open a list of traced nodes for a detailed review. 
 
 ![TraceAnalyser](doc/TraceAnalyser.PNG)
 
