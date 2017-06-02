@@ -13,6 +13,7 @@ You can click at one of the document images to open a list of traced nodes for a
 - To validate the Data Migration when moving documents from one server to another with traces 
 
 ## Install
+Option 1: In IntegrityClient folder
 - Put the "dist/IntegrityTraceAnalyser.jar" directly into your IntegrityClient folder
 - Copy also the files "dist/lib/IntegrityAPI.jar" and "dist/lib/jfxmessagebox-1.1.0.jar" into your IntegrityClient/lib folder
 - Add a custom menu entry with:
@@ -20,6 +21,13 @@ You can click at one of the document images to open a list of traced nodes for a
 name: Trace Analyser
 program:  ../jre/bin/javaw.exe
 parameter: -jar ../IntegrityTraceAnalyser.jar
+```
+
+Option 2: In a shared folder
+- Take all files from "dist" folder and place them somewhere centrally
+- Register a custom menu as described before, but with the following change
+```
+parameter: -jar <your shared folder>/IntegrityTraceAnalyser.jar
 ```
 
 ## How to test
