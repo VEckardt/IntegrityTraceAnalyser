@@ -9,8 +9,9 @@ You can click at one of the document images to open a list of traced nodes for a
 ![TraceAnalyser](doc/TraceAnalyser.PNG)
 
 ## Use Cases
-- Trace status review in general
-- To validate the Data Migration when moving documents from one server to another with traces 
+- As a Requirement Manager, I want to have an overview of the Trace Status for my document
+- As a Requirement Manager, I want to validate which Documents are exactly traced to the current documents
+- As a Requirement Manager, I want to validate the Data Migration of Documents, imported from another Requirement Management System. Especially I want to check the traces imported.
 
 ## Install
 Option 1: In IntegrityClient folder
